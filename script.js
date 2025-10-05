@@ -504,13 +504,6 @@ function HeaderComponent({ theme, isMenuOpen }) {
                             ${link.label}
                         </a>
                     `).join('')}
-                    <button
-                        onclick="toggleTheme()"
-                        class="p-2 rounded-full text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-900 transition-colors"
-                        aria-label="Alternar tema"
-                    >
-                        ${theme === 'dark' ? Icons.Sun : Icons.Moon}
-                    </button>
                 </nav>
                 <div class="md:hidden flex items-center">
                      <button
