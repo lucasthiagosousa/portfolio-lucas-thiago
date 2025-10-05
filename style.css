@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Exo 2', sans-serif;
+}
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.terminal-cursor {
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  from, to { color: transparent; }
+  50% { color: #00f7ff; }
+}
+html:not(.dark) .terminal-cursor {
+  animation: blink-light 1s step-end infinite;
+}
+@keyframes blink-light {
+  from, to { color: transparent; }
+  50% { color: #16a34a; }
+}
+@keyframes scroll-ltr {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes scroll-rtl {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+.animate-scroll-ltr {
+  animation: scroll-ltr 60s linear infinite;
+}
+.animate-scroll-rtl {
+  animation: scroll-rtl 60s linear infinite;
+}
