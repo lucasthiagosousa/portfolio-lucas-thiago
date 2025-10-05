@@ -332,7 +332,7 @@ const LINKEDIN_HIGHLIGHTS = [
     {
         title: " Hackathon Visite São Paulo 2024 - Conquistando o 2° lugar da Competição",
         description: "O desafio do evento era instigante: “Como transformar os moradores de São Paulo em turistas na própria cidade, usando tecnologia? Nossa resposta foi um app de compartilhamento de fotos que recompensa os usuários com descontos em restaurantes locais, incentivando o turismo urbano e acessível.Tive a responsabilidade de estruturar o Project Model Canvas do grupo, aplicando ferramentas como Matriz GUT e Mapa de Empatia",
-        imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFLVOiwPS_tpg/feedshare-shrink_1280/0/1729601551650",
+       imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQFLVOiwPS_tpg/feedshare-shrink_1280/0/1729601551650",
         postUrl: "https://www.linkedin.com/posts/lucas-thiago-368628160_inovaaexaeto-dev-saetopaulo-activity-7254474715182862338-7J2a",
     }
 ];
