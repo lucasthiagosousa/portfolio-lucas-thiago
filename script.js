@@ -48,7 +48,7 @@ const PERSONAL_INFO = {
   whatsapp: "https://wa.me/5515981284016",
   linkedin: "https://www.linkedin.com/in/lucas-thiago-368628160/",
   github: "https://github.com/lucasthiagosousa",
-  cv_url: "Lucas%20Thiago%20de%20Sousa%20Silveira.pdf"
+  cv_url: "Lucas%20Thiago%20de%20Sousa%20Silveiraa.pdf"
 };
 
 const SOFT_SKILLS = [
