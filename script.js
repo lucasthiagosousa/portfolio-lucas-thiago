@@ -506,18 +506,6 @@ function HeaderComponent({ theme, isMenuOpen }) {
                     `).join('')}
                 </nav>
                 <div class="md:hidden flex items-center">
-                     <button
-                        onclick="toggleTheme()"
-                        class="p-2 rounded-full text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-900 transition-colors"
-                        aria-label="Alternar tema"
-                    >
-                        ${theme === 'dark' ? Icons.Sun : Icons.Moon}
-                    </button>
-                    <button onclick="toggleMenu()" class="text-gray-600 dark:text-gray-300 focus:outline-none ml-4" aria-label="Abrir menu">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}"></path>
-                        </svg>
-                    </button>
                 </div>
             </div>
             ${isMenuOpen ? `
