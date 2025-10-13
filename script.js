@@ -2,12 +2,6 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-// =================================================================================
-// DADOS DA APLICAÇÃO (Anteriormente em constants.tsx e types.ts)
-// =================================================================================
-
-// ⚠️ Importante: Cole sua chave de API do Google AI Studio aqui para ativar os recursos de IA.
-// Obtenha sua chave em: https://aistudio.google.com/app/apikey
 const API_KEY = "AIzaSyCOuFKZH8XvabRmakA22NbK50EhlaxbKDw";
 
 const Icons = {
@@ -468,7 +462,7 @@ let appState = {
 };
 
 // =================================================================================
-// FUNÇÕES DE "COMPONENTE" (GERADORES DE HTML)
+// FUNÇÕES DE "COMPONENTE"
 // =================================================================================
 
 function SectionComponent({ id, title, icon, children }) {
@@ -1103,9 +1097,6 @@ function FooterComponent() {
   `;
 }
 
-// =================================================================================
-// LÓGICA DE RENDERIZAÇÃO E INTERATIVIDADE
-// =================================================================================
 
 const root = document.getElementById('root');
 
@@ -1352,7 +1343,6 @@ function initMonitoringSimulator() {
 }
 
 
-// Evento principal que inicia a aplicação
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     initializeGemini();
