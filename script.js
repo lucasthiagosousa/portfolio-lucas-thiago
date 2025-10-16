@@ -173,12 +173,6 @@ const EDUCATIONS = [
     status: "Concluído",
     icon: Icons.GraduationCap({ width: 48, height: 48 })
   },
-  {
-    institution: "IAP",
-    course: "Administração",
-    status: "Concluído",
-    icon: Icons.GraduationCap({ width: 48, height: 48 })
-  }
 ];
 
 const CERTIFICATIONS = [
