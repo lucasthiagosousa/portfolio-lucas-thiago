@@ -447,7 +447,7 @@ let appState = {
     chatbot: {
         isOpen: false,
         isLoading: false,
-        messages: [{ sender: 'bot', text: "Olá! Sou o assistente de IA do Lucas. Como posso te ajudar a saber mais sobre o portfólio dele?" }]
+        messages: [{ sender: 'bot', text: "Olá! Sou o assistente de IA do Lucas. Como posso te ajudar a saber mais sobre ele?" }]
     },
     about: {
         aiSummary: '',
