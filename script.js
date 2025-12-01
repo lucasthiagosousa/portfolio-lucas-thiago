@@ -59,10 +59,10 @@ const SOFT_SKILLS = [
 const EXPERIENCES = [
      {
     company: "Alfa Computer",
-    role: "Analista de Sistemas/Desenvolverdor Junior",
+    role: "Analista de Sistemas / Desenvolverdor Junior",
     period: "Outubro 2025 - Atual",
     responsibilities: [
-    "Desenvolvimento de aplicações **web** e **mobile** utilizando **Node.js**, **JavaScript** e **Java**, desde prototipação até implementação.",  
+    "Desenvolvimento de aplicações **Web** e **Mobile** utilizando **Java**, **Node.js** e **JavaScript** desde prototipação até implementação.",  
     "Instalação, configuração e manutenção de sistemas corporativos, garantindo a operação contínua dos ambientes de TI.",
     "Desenvolvimento e criação de novos documentos técnicos, fluxos, rotinas e automações para otimização de processos internos.",
     "Criação e manutenção de scripts para automação de tarefas utilizando **PowerShell**, Bash e ferramentas complementares.",
