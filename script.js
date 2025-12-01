@@ -59,7 +59,7 @@ const SOFT_SKILLS = [
 const EXPERIENCES = [
      {
     company: "Alfa Computer",
-    role: "Analista de Sistemas",
+    role: "Analista de Sistemas/Desemvolvedor Junior",
     period: "Outubro 2025 - Atual",
     responsibilities: [
      "Instalação, configuração e manutenção de sistemas corporativos, garantindo a operação contínua dos ambientes de TI.",
