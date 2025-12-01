@@ -335,7 +335,7 @@ const LINKEDIN_HIGHLIGHTS = [
     {
         title: "Hackathon Qualcomm Edge AI & Dell - Consquistando posição de Destaque com aplicação ao Vivo",
         description: "Em apenas 30 horas no Hackathon Qualcomm Edge AI, no Cubo Itaú, desenvolvemos o Argos AI: uma solução de inteligência artificial totalmente local sem necessidade de internet, rodando nos novos notebooks Dell com Snapdragon X Plus. O Argos AI detecta comportamentos maliciosos",
-        imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQG84y-tZzhYKA/feedshare-shrink_2048_1536/B4DZkIqu6wH4A4-/0/1756787044613?e=1762387200&v=beta&t=Xd4SCg-h0-H_s6viZR2WFs37BNQwztUtRS0i2D4clcY",
+        imageUrl: "https://media.licdn.com/dms/image/v2/D4D22AQG84y-tZzhYKA/feedshare-shrink_2048_1536/B4DZkIqu6wH4A4-/0/1756787044613?e=1766016000&v=beta&t=9IUDf6PR8PQ1mYSeKGU42PkQnoIIKgtc01k0HVWNPBk",
         postUrl: "https://www.linkedin.com/posts/lucas-thiago-368628160_hackathon-qualcommedgeai-dell-activity-7368498946219970560-O5K-",
     },
     {
