@@ -57,10 +57,20 @@ const SOFT_SKILLS = [
 ];
 
 const EXPERIENCES = [
+     {
+    company: "Alfa Computer",
+    role: "Analista de Sistemas",
+    period: "Outubro 2025 - Atual",
+    responsibilities: [
+      "Desenvolver de Projetos",
+        "Analise de rede",
+    ]
+  },
+  {
   {
     company: "Elev Tecnologia",
     role: "Analista de Sistemas",
-    period: "Mai 2024 - Atual",
+    period: "Mai 2024 - Outubro 2025",
     responsibilities: [
       "Recebimento, registro e categorização de chamados técnicos de clientes e usuários internos (**Jira**).",
       "Avaliação das necessidades dos clientes para oferecer soluções personalizadas.",
